@@ -1,13 +1,12 @@
 ## GE2E loss speaker embedding
 
-* Keras-based Implementation
+### Keras-based Implementation
 - This is the implementation of Google's GE2E Speaker Verification based on tensorflow keras. It has also intuitive close-voice-web-DEMO. We chose EER as a barometer of our Speaker Embedding System. Using GE2E loss, various categorization could be(like age, country, emotion, etc).
 
-* DATA
+### DATA
   - vox celeb1, vox celeb2, librispeech (총 9500명 화자)
 
-
-* How to Run
+### How to Run
 
     Change the MODE parameter in config/config.json to "TRAIN", "INFER" or "EXRPOT" before running.
 
