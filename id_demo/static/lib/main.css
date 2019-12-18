@@ -1,0 +1,87 @@
+body {
+    background-color:#efefef;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+}
+#sent_div{
+    background-color: #2B2B2A;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+#logo {
+    height:85px;
+    width:127.34;
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin-top: 7.5px;
+}
+#pe_txt {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    position:absolute;
+    top:22.5px;
+    left: 130px;
+    font-size: 11pt;
+    line-height:1
+}	
+#selectsent{
+    height: 30px;
+    margin-bottom: 35px;
+    font-size: 15pt;
+    vertical-align: middle;
+}
+#lang{position: absolute; right: 20px; height:30px; margin-bottom: 35px; margin-top: 35px; font-size:20px;}
+.icons {
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+}
+#record {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#record.recording {
+    background: red;
+    background: -webkit-radial-gradient(center, ellipse cover, #ff0000 0%,#2B2B2A 75%,#2B2B2A 100%,#7db9e8 100%);
+    background: -moz-radial-gradient(center, ellipse cover, #ff0000 0%,#2B2B2A 75%,#2B2B2A 100%,#7db9e8 100%);
+    background: radial-gradient(center, ellipse cover, #ff0000 0%,#2B2B2A 75%,#2B2B2A 100%,#7db9e8 100%);
+}
+
+#message {
+    height: 25px;
+    font-size: 20px;		
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+}
+#viz {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+#wavedisplay {
+    display: inline-block;
+    background: #2B2B2A;
+    width: 70%;
+    height: 60%;
+    margin-bottom: 30px;
+}		
+#score {
+    text-align:center;
+    margin-top: 5px;
+}
+#scoretext {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.heatmap { width:100%; height:100%; }

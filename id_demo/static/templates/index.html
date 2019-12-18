@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WebSocket Test Page</title>
+<script src="/static/lib/d3.v4.min.js"></script>
+<script src="/static/lib/jquery.min.js"></script>
+<script src="/static/lib/recorder.js"></script>
+<link rel="stylesheet" href="/static/lib/main.css">
+</head>
+
+<body onload="onLoad();">
+
+  <div id="sent_div" style="text-align:center;">
+    <img src="/static/img/namz_logo.png" id="logo">
+    <img src="/static/img/record.png" id="record" class="icons" onclick="toggleRecording(this);">
+    <img src="/static/img/play.png" id="play" class="icons">
+  </div>
+
+  <div id="viz">
+    <p id="message"></p>
+    <canvas id="wavedisplay" width="1024" height="150"></canvas>
+     <div id="score"></div>
+  </div>
+</body>
+</html>
