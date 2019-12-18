@@ -7,8 +7,7 @@
   - vox celeb1, vox celeb2, librispeech (총 9500명 화자)
 
 ### How to Run
-
-    Change the MODE parameter in config/config.json to "TRAIN", "INFER" or "EXRPOT" before running.
+  - Change the MODE parameter in config/config.json to "TRAIN", "INFER" or "EXRPOT" before running.
 
     1. Train
 
@@ -28,7 +27,7 @@
     python ge2e.py --wavdir [path to wav directory] --emb_savedir [path to save embeddings] --ckpt [exact path of the ckpt to use]
     ```
 
-    Export
+    3. Export
     ```python
     python ge2e.py
     ```
